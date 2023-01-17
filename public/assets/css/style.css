@@ -1,0 +1,51 @@
+.bn-hover-container img{
+    max-height: 100%;
+    height: 300px !important;
+}
+
+ .clearfix img{
+    width: 600px;
+    height: 500px;
+  }  
+
+  .logo-text{
+    font-weight: 700;
+    color: #B18C57;
+ }
+
+@media screen and (max-width:768px) {
+    .clearfix img{
+        width: 301px;
+        height: 200px;
+      }  
+      .page-content .ps-5{
+            padding-left: 12px !important;
+    
+      }
+
+      .clearfix p{
+        overflow: hidden;
+        inline-size: 300px;
+      }
+
+      .logo-text{
+         font-weight: 400;
+      }
+}
+
+
+@media (max-width:320px) {
+   .logo-text{
+    /* display: none; */
+    font-size: 11px;
+   }
+
+   section{
+     overflow: hidden;
+   }
+
+   .clearfix p {
+    overflow: hidden;
+    inline-size: 255px;
+}
+}
